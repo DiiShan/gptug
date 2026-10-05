@@ -1,0 +1,21 @@
+# v3.1；2026-10-05 依据官方文档核对。仅放在本辩论项目内。
+# 不修改 ~/.codex，不写认证信息，不指定模型或供应商。
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+# 本项目用于公共主题时可使用搜索；严禁发送私有文件、标识或上下文。
+# 内部资料项目应在首次部署时改成 disabled，并检查全部 MCP/网络入口。
+web_search = "live"
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 4
+
+[features]
+memories = false
+
+[memories]
+use_memories = false
+generate_memories = false
+
+[sandbox_workspace_write]
+network_access = false

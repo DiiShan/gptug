@@ -1,0 +1,8 @@
+# 运行结果默认只留本地；发布前另行审查，不能把 gitignore 当成访问控制。
+debates/
+.smoke/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*

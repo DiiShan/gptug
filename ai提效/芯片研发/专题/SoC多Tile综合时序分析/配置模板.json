@@ -1,0 +1,179 @@
+{
+  "schema_version": "soc-qor/2.0",
+  "document_kind": "configuration_template",
+  "approval_status": "template_unapproved",
+  "publish_enabled": false,
+  "instructions": "匿名空白模板；__SET__、null、空成员不得被视为已批准配置。真实填写后仅存获准内部系统。该文件不包含校验器或EDA命令。",
+  "project": {
+    "project_id": "__SET__",
+    "soc_revision": "__SET__",
+    "process_id": "__SET__",
+    "pdk_release": "__SET__",
+    "data_classification": "__SET__",
+    "internal_storage_ref": "__SET__",
+    "owner": "__SET__"
+  },
+  "milestones": [
+    {
+      "milestone_id": "__SET__",
+      "revision": "__SET__",
+      "predecessor_milestone_id": null,
+      "functional_contract_revision": "__SET__",
+      "acceptance_revision": "__SET__",
+      "approval_status": "unapproved"
+    }
+  ],
+  "tile_designs": [
+    {
+      "tile_id": "__SET__",
+      "ip_id": "__SET__",
+      "config_id": "__SET__",
+      "top_module": "__SET__",
+      "wrapper_revision": "__SET__",
+      "effective_configuration_ref": "__SET__",
+      "functional_contract_revision": "__SET__",
+      "boundary_budget_revision": "__SET__",
+      "soc_instance_ids": [],
+      "area_ownership_policy": "__SET__",
+      "model_status": "unknown",
+      "owner": "__SET__"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "__SET__",
+      "revision": "__SET__",
+      "mode": "__SET__",
+      "library_set_digest": "__SET__",
+      "pvt_ref": "__SET__",
+      "rc_parasitics_ref": "__SET__",
+      "effective_constraints_digest": "__SET__",
+      "clock_analysis_ref": "__SET__",
+      "variation_si_pba_settings_ref": "__SET__",
+      "applicable_checks": [],
+      "approval_status": "unapproved"
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "__SET__",
+      "revision": "__SET__",
+      "milestone_ref": "__SET__",
+      "tile_config_ref": "__SET__",
+      "flow_stage": "__SET__",
+      "scenario_ref": "__SET__",
+      "check_type": "__SET__",
+      "report_category": "__SET__",
+      "required": true,
+      "not_applicable_reason": null,
+      "limits_revision": "__SET__",
+      "maximum_age_policy_ref": "__SET__",
+      "carry_forward_allowed": false,
+      "approval_status": "unapproved"
+    }
+  ],
+  "execution_manifest_template": {
+    "run_id": "__SET__",
+    "iteration_id": "__SET__",
+    "round_label": "__SET__",
+    "retry_of": null,
+    "tile_config_ref": "__SET__",
+    "milestone_ref": "__SET__",
+    "producer_job_id": "__SET__",
+    "submitted_at": null,
+    "started_at": null,
+    "ended_at": null,
+    "execution_status": "unknown",
+    "exit_code": null,
+    "effective_inputs_digest": "__SET__",
+    "tool_build_ref": "__SET__",
+    "recipe_digest": "__SET__",
+    "output_design_digest": "__SET__",
+    "artifact_refs": [],
+    "analysis_refs": [],
+    "resource_measurements_ref": "__SET__",
+    "data_quality_status": "unknown"
+  },
+  "analysis_template": {
+    "analysis_id": "__SET__",
+    "producer_run_id": "__SET__",
+    "design_source_run_id": "__SET__",
+    "design_artifact_digest": "__SET__",
+    "flow_stage": "__SET__",
+    "scenario_ref": "__SET__",
+    "check_type": "__SET__",
+    "report_recipe_ref": "__SET__",
+    "scope_ref": "__SET__",
+    "quality_status": "unknown"
+  },
+  "metric_fact_template": {
+    "metric_id": "__SET__",
+    "analysis_id": "__SET__",
+    "design_artifact_digest": "__SET__",
+    "metric_name": "__SET__",
+    "metric_semantics_version": "__SET__",
+    "scope_ref": "__SET__",
+    "raw_value": null,
+    "raw_unit": null,
+    "normalized_value": null,
+    "normalized_unit": null,
+    "value_status": "missing",
+    "missing_reason": "template_not_populated",
+    "evidence_refs": [],
+    "parser_version": "__SET__",
+    "transform_version": "__SET__"
+  },
+  "snapshot_template": {
+    "snapshot_id": "__SET__",
+    "revision": "__SET__",
+    "milestone_ref": "__SET__",
+    "requirements_revision": "__SET__",
+    "cutoff_at": null,
+    "members": [],
+    "missing_requirement_ids": [],
+    "cross_tile_coverage_ref": "__SET__",
+    "approval_status": "unapproved"
+  },
+  "snapshot_member_template": {
+    "tile_config_ref": "__SET__",
+    "soc_instance_ids": [],
+    "latest_execution_run_id": null,
+    "last_valid_run_id": null,
+    "selected_run_id": null,
+    "selected_analysis_ids": [],
+    "carried_forward_from": null,
+    "age_at_cutoff_seconds": null,
+    "carry_forward_approval_ref": null,
+    "functional_qualification": "unknown",
+    "coverage_status": "incomplete"
+  },
+  "comparison_template": {
+    "comparison_id": "__SET__",
+    "comparison_type": "__SET__",
+    "base_refs": [],
+    "head_refs": [],
+    "baseline_policy_ref": "__SET__",
+    "hypothesis": "__SET__",
+    "controlled_fields": [],
+    "allowed_changes": [],
+    "unknowns": [],
+    "metric_scope_ref": "__SET__",
+    "rules_version": "__SET__",
+    "comparability_status": "insufficient_evidence",
+    "reason_codes": ["TEMPLATE_NOT_POPULATED"],
+    "review_ref": null
+  },
+  "operational_policy": {
+    "raw_artifacts_immutable": true,
+    "duplicate_import_idempotent": true,
+    "unknown_format_action": "quarantine",
+    "missing_required_data_action": "block_acceptance",
+    "llm_failure_action": "deterministic_report_only",
+    "runtime_llm_may_change_numeric_facts": false,
+    "runtime_llm_may_change_constraints_or_waivers": false,
+    "automatic_public_model_fallback": false,
+    "llm_request_concurrency_limit": null,
+    "eda_resource_budget_ref": "__SET__",
+    "review_capacity_policy_ref": "__SET__"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0-template",
+  "template_only": true,
+  "identity": {
+    "run_id": null,
+    "ip_id": null,
+    "config_id": null,
+    "top_module": null,
+    "experiment_id": null,
+    "round_label": null,
+    "attempt": null,
+    "parent_run_id": null,
+    "source_run_id": null
+  },
+  "execution": {
+    "status": "UNFILLED",
+    "job_id": null,
+    "started_at_iso8601": null,
+    "ended_at_iso8601": null,
+    "timezone": null,
+    "exit_code": null,
+    "completion_evidence": null
+  },
+  "design": {
+    "rtl_commit": null,
+    "dirty_patch_sha256": null,
+    "effective_sources_sha256": null,
+    "ordered_filelist_sha256": null,
+    "include_inputs_sha256": null,
+    "defines": null,
+    "parameters": null,
+    "generator_versions": null,
+    "netlist_sha256": null
+  },
+  "technology": {
+    "process_id": null,
+    "pdk_release": null,
+    "stdcell_libset_sha256": null,
+    "macro_models_sha256": null,
+    "allowed_vt_cells_sha256": null,
+    "dont_use_sha256": null
+  },
+  "flow": {
+    "synthesis_tool": null,
+    "synthesis_build": null,
+    "sta_tool": null,
+    "sta_build": null,
+    "recipe_sha256": null,
+    "effective_options_sha256": null,
+    "optimization_strategy": null,
+    "incremental_mode": null,
+    "seed_or_not_applicable": null,
+    "cpu_count": null,
+    "host_class": null
+  },
+  "constraints": {
+    "sdc_root_sha256": null,
+    "sdc_dependency_set_sha256": null,
+    "effective_constraints_sha256": null,
+    "clocks_and_io_evidence": null,
+    "exceptions_evidence": null,
+    "coverage_evidence": null
+  },
+  "analysis": {
+    "stage": null,
+    "required_scene_ids": null,
+    "observed_scenes": [
+      {
+        "scene_id": null,
+        "mode": null,
+        "process_corner": null,
+        "voltage_v": null,
+        "temperature_c": null,
+        "rc_corner": null,
+        "libset_sha256": null,
+        "constraint_set_sha256": null,
+        "analysis_settings_ref": null,
+        "required_check_types": null,
+        "observed_check_types": null,
+        "status": "UNFILLED"
+      }
+    ],
+    "physical_context_sha256": null,
+    "parasitic_source_or_not_applicable": null,
+    "parasitic_sha256_or_not_applicable": null,
+    "clock_model": null,
+    "variation_derates": null,
+    "crpr": null,
+    "si": null,
+    "analysis_mode_gba_pba": null
+  },
+  "reports": {
+    "command_options_sha256": null,
+    "report_contract_version": null,
+    "raw_units_evidence": null,
+    "wns_convention": null,
+    "tns_scope_definition": null,
+    "path_selection_top_n": null,
+    "precision": null,
+    "artifacts": [
+      {
+        "role": null,
+        "relative_path": null,
+        "sha256": null,
+        "size_bytes": null,
+        "complete": null,
+        "export_command_ref": null
+      }
+    ]
+  },
+  "power_optional": {
+    "status": "NOT_FILLED",
+    "activity_sha256": null,
+    "time_window": null,
+    "workload": null,
+    "frequency": null,
+    "annotation_coverage": null,
+    "default_toggle_assumptions": null
+  },
+  "baselines": {
+    "frozen_run_id": null,
+    "previous_comparable_run_id": null,
+    "experiment_control_run_id": null,
+    "approval_ref": null
+  },
+  "quality": {
+    "status": "UNREVIEWED",
+    "missing_required": null,
+    "unconstrained_status": null,
+    "unmapped_blackbox_status": null,
+    "waiver_approval_refs": null
+  },
+  "ownership": {
+    "owner": null,
+    "sta_reviewer": null,
+    "classification": "INTERNAL_WHEN_FILLED",
+    "storage_policy_ref": null
+  },
+  "instructions": "Copy inside an approved internal system. Null fields are unfilled, not zero or proof of not-applicable. Real instances require validated scene definitions and artifact provenance. This is a form, not a JSON Schema or an implemented validator."
+}

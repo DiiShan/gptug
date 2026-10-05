@@ -1,0 +1,1 @@
+run_id,ip_id,config_id,stage,scene_id,check_type,path_group,scope,metric,definition_id,value,unit,value_status,raw_value,raw_unit,conversion_factor,aggregation_scope,source_report_path,source_sha256,source_line_start,source_line_end,source_json_pointer,adapter_version,report_precision

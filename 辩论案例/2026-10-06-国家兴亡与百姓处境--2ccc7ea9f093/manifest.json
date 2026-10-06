@@ -1,0 +1,68 @@
+{
+  "schema_version": "3.1",
+  "run_id": "20261006T012729Z--2ccc7ea9f093",
+  "topic_key": "t-自古老百姓没有国家概念-国家兴亡朝代更迭对老百姓都是一样--4ecb939aa042890d",
+  "motion_original": "自古老百姓没有国家概念，国家兴亡朝代更迭对老百姓都是一样的苦。",
+  "created_at": "2026-10-06T01:27:29.780672+00:00",
+  "smoke": false,
+  "config": {
+    "system_version": "3.1",
+    "purpose": "decision",
+    "planned_rounds": 30,
+    "max_rounds": 60,
+    "extension_rounds": 10,
+    "phase_weights": [
+      10,
+      20,
+      30,
+      30,
+      10
+    ],
+    "convergence_start_ratio": 0.4,
+    "stable_window": 4,
+    "checkpoint_interval": 5,
+    "search_policy": "public_only",
+    "output_language": "zh-CN"
+  },
+  "initial_plan": [
+    {
+      "phase": "foundation",
+      "start": 1,
+      "end": 3
+    },
+    {
+      "phase": "deep_clash",
+      "start": 4,
+      "end": 9
+    },
+    {
+      "phase": "evidence_war",
+      "start": 10,
+      "end": 18
+    },
+    {
+      "phase": "logic_closing",
+      "start": 19,
+      "end": 27
+    },
+    {
+      "phase": "final_statements",
+      "start": 28,
+      "end": 30
+    }
+  ],
+  "convergence_start_round": 12,
+  "system_hashes": {
+    "AGENTS.md": "ee630f94a6264febea2104ee87c3ec8b2f937783991afe36c5fb17725c18d677",
+    "PROTOCOL.md": "5255a32f0ed52dd5429cb06e801b9ae3463df2eea3db35a02467c965a8aef0c0",
+    "SCHEMA.md": "78eda654aadc921a123479b255f875611dd54f63259178df3c9ab0ca8d5490d2",
+    "debate.config.toml": "098da200e5807c1e1046f527781fb043d915f87913c890dd6cfe0c47442d72aa",
+    ".codex/config.toml": "7dad617b9f4f42f9773c8065c383f1312378c9ed976d070346c4c4016c3822ad",
+    ".agents/skills/evidence-debate/SKILL.md": "2a3385c54fe8f353c11786125b039820d2677f91bd261a87c988871d6736c475",
+    "scripts/debate.py": "a6bd30e0d29df8665b027291b8ca5e66cc95e15a035b535749392d04dc3c3547",
+    ".codex/agents/debate_affirmative.toml": "789adc4bc10a7c63ec4d6de94b4508c4305e606360f851500621bd4f46c13b9c",
+    ".codex/agents/debate_checker.toml": "680a80aefba1e29edcb93fe22b154b83db78e5c8a58f81fb6912632119814b37",
+    ".codex/agents/debate_judge.toml": "0475de560fcc3c67791440cba5711efd68c63b1e0cd0cf26c78f2b75bfb01a40",
+    ".codex/agents/debate_negative.toml": "38258088487976a5ef0df551fb0e28a62a4492f7228e347cbcfac115ed37806a"
+  }
+}

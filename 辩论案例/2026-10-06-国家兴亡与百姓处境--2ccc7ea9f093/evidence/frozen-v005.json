@@ -1,0 +1,777 @@
+{
+  "run_id": "20261006T012729Z--2ccc7ea9f093",
+  "evidence_version": 5,
+  "motion_original": "自古老百姓没有国家概念，国家兴亡朝代更迭对老百姓都是一样的苦。",
+  "purpose": "decision",
+  "scope_assumptions": "中国前近代秦汉至清；非统治精英含农户城市居民兵卒，阶层地区性别差异不抹平；非当代政策建议",
+  "claims": [
+    {
+      "id": "C001",
+      "text": "H1广义读法：前近代百姓一概没有官府、赋役与行政责任的政治认识。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [
+        "E017"
+      ],
+      "depends_on": [
+        "C014"
+      ],
+      "assessment": "contradicted",
+      "review_version": 5,
+      "review_note": "原句语义拆分后：敦煌请状契约构成广义行政关系知识缺席的反例；不反驳情感归属缺席版本。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "秦汉至清，非统治精英"
+    },
+    {
+      "id": "C002",
+      "text": "不同国家兴亡、朝代更迭下普通人的苦难程度、风险及分布完全等同。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [],
+      "depends_on": [],
+      "assessment": "unverified",
+      "review_version": 5,
+      "review_note": "实际福利等同仍unverified；出土账务和法定田租不补足结果序列。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "秦汉至清"
+    },
+    {
+      "id": "C003",
+      "text": "不具有现代民族国家观念，不蕴含没有前近代政治共同体认识。",
+      "kind": "logical",
+      "decisive": true,
+      "evidence_ids": [],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "概念包含关系不同，双方独立R1与R2明确。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "逻辑推论"
+    },
+    {
+      "id": "C004",
+      "text": "兴亡皆可能造成苦难，不蕴含苦难程度、风险和分布相同。",
+      "kind": "logical",
+      "decisive": true,
+      "evidence_ids": [],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "存在命题不蕴含数量等同；须另有比较证据。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "逻辑推论"
+    },
+    {
+      "id": "C005",
+      "text": "政治认同与家庭生计可以并存，缺少抽象认同不蕴含对政权无偏好。",
+      "kind": "logical",
+      "decisive": true,
+      "evidence_ids": [],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "动机不互斥；不据此声称历史上的多数比例。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "逻辑关系"
+    },
+    {
+      "id": "C006",
+      "text": "王朝兴盛不能自动作为百姓福利改善的充分指标。",
+      "kind": "logical",
+      "decisive": true,
+      "evidence_ids": [],
+      "depends_on": [
+        "C004",
+        "C005"
+      ],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "政权成功与民生测量是不同指标，具体历史差异待证。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "评价指标"
+    },
+    {
+      "id": "C007",
+      "text": "睡虎地4号墓确有秦军士卒黑夫、惊的家书，涉及亲属、钱与夏衣等生活关切。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [
+        "E001",
+        "E002"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "修正未独立核实的粮；钱与夏衣/亲属内容可支持；爵/精确定年不依赖。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "秦代个案"
+    },
+    {
+      "id": "C008",
+      "text": "汉初文景时期传世史书记载法定田租政策有差异。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [
+        "E003"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "仅田租政策，不代表实际总负担；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "西汉法定政策"
+    },
+    {
+      "id": "C009",
+      "text": "后出江阴地方记事呈现归顺后因剃发政策而请愿反抗的事件顺序。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [
+        "E005",
+        "E015"
+      ],
+      "depends_on": [],
+      "assessment": "partially_supported",
+      "review_version": 5,
+      "review_note": "E015文本批判进一步限制同期性与作者；不可认作实际参与者原话或全体动机。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "1645江阴"
+    },
+    {
+      "id": "C010",
+      "text": "张养浩散曲确有兴亡皆使百姓受苦的文学评价。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [
+        "E007"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "作者文学评价，不作为统计或群众调查；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "元代文本"
+    },
+    {
+      "id": "C011",
+      "text": "陈涉世家记载非精英出身者与戍卒使用扶苏、项燕及楚等政治符号动员。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [
+        "E009"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "史书如此记载；不认证每句对白和全体动机；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "秦末叙事"
+    },
+    {
+      "id": "C012",
+      "text": "秦律徭律迟到处罚与陈胜戍卒失期皆斩的适用对象、时段存在未解决差异。",
+      "kind": "empirical",
+      "decisive": false,
+      "evidence_ids": [
+        "E004",
+        "E009"
+      ],
+      "depends_on": [],
+      "assessment": "disputed",
+      "review_version": 5,
+      "review_note": "不能由不同役种和时段直接宣布传世叙述证伪；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "秦律和秦末"
+    },
+    {
+      "id": "C013",
+      "text": "苦难反复或认同存在，均不能直接推出不必关心政治或应无条件牺牲。",
+      "kind": "logical",
+      "decisive": true,
+      "evidence_ids": [],
+      "depends_on": [
+        "C004",
+        "C005"
+      ],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "R8描述/因果/价值分开，需额外必要性和分配理由。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "伦理应用边界"
+    },
+    {
+      "id": "C014",
+      "text": "敦煌两件正文自称百姓的请状/契约记载请求官府土地裁定及赋役责任安排，体现具体非精英参与行政关系。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [
+        "E017"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "可能代写；支持文书涉及这些当事人的制度关系，不证明已经受理/合同履行或每人独立理解全部术语，更不证明情感忠诚。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "865 P.2222B(1)与907 P.3214v；924材料只作补充部分支持"
+    },
+    {
+      "id": "C015",
+      "text": "清世祖实录卷17记载强制文武军民剃发、不从军法处理的中央命令。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [
+        "E016"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "独立官方文本，不推江阴全部执行/动机；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "顺治二年中央命令"
+    },
+    {
+      "id": "C016",
+      "text": "黑夫家书相家爵存在人名说和军爵说，不宜作为无争议政治归属证据。",
+      "kind": "empirical",
+      "decisive": false,
+      "evidence_ids": [
+        "E010"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "支持释读分歧存在；具体军爵解释disputed，王得不拆秦王；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "睡虎地家书语词"
+    },
+    {
+      "id": "C017",
+      "text": "本次取得秦汉田租核算、更役簿及具体官署受款材料，仍未取得同期间家庭应纳—实收—生活结果关联序列。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [
+        "E012",
+        "E013",
+        "E014",
+        "E019"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "局部执行事实新增，不等总体差异/等同，不宣称世上无关联数据。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "本次公开获准材料"
+    },
+    {
+      "id": "C018",
+      "text": "江阴城守纪传统韩菼署名有严重年代和文本问题。",
+      "kind": "empirical",
+      "decisive": false,
+      "evidence_ids": [
+        "E015"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "依据黄一农实际版本，不称已直接读顾诚原书；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "文本形成史"
+    },
+    {
+      "id": "C019",
+      "text": "汉书载晁错关于农户困苦及董仲舒关于兼并租佃的批评。",
+      "kind": "empirical",
+      "decisive": false,
+      "evidence_ids": [
+        "E003"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "仅文本内容，不认证全国倍率和奏议总体测量；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "汉书食货志"
+    },
+    {
+      "id": "C020",
+      "text": "H1情感读法：中国前近代全部普通人均缺少任何王朝或政治共同体情感归属。",
+      "kind": "empirical",
+      "decisive": true,
+      "evidence_ids": [],
+      "depends_on": [],
+      "assessment": "unverified",
+      "review_version": 5,
+      "review_note": "不以行政交涉证明归属；资料沉默亦不证明无归属，全国比例未测。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "原命题国家概念的情感读法"
+    },
+    {
+      "id": "C021",
+      "text": "若国家概念包括文书体现的官府赋役制度参与，则广义完全缺席不能作无例外概括；不推出每人术语全懂或全国普遍忠诚。",
+      "kind": "logical",
+      "decisive": true,
+      "evidence_ids": [],
+      "depends_on": [
+        "C014",
+        "C003",
+        "C005"
+      ],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "依据C014两件正文百姓请求及责任；不依C001为成立前提，不依S.1897身份、合同履行、爵释或江阴对白。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "广义行政认识的操作定义"
+    },
+    {
+      "id": "C022",
+      "text": "里耶9-743释文记载田刍稾钱1134的一笔官署受款交接。",
+      "kind": "empirical",
+      "decisive": false,
+      "evidence_ids": [
+        "E019"
+      ],
+      "depends_on": [],
+      "assessment": "supported",
+      "review_version": 5,
+      "review_note": "学术引文，不认证逐户实纳/全额收清，不与29/30年简拼接，元年解二世元年为论文解释。；核查员checks/final_check.md逐项确认到v5，复用未变来源不冒称重访。",
+      "scope": "迁陵具体账务"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E001",
+      "locator": "https://hbww.org.cn/zhujian/p/5381.html",
+      "source_type": "收藏机构考古实物说明",
+      "source_date": null,
+      "source_family": "睡虎地4号墓家书",
+      "scope": "秦代兵卒、出土地；不是全体百姓",
+      "excerpt": "1975年4号墓出土，木牍527字",
+      "tool_event_ref": "checker:web.open turn3view0/turn4view6 L28–38",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker",
+      "acquisition_note": "来源实际由原生核查agent访问；事件定位为其真实返回，不宣称主agent独立重访。"
+    },
+    {
+      "id": "E002",
+      "locator": "https://paper.people.com.cn/rmlt/pc/content/202506/18/content_30086973.html",
+      "source_type": "学者出土文献释读",
+      "source_date": "2025-06-18",
+      "source_family": "睡虎地家书/居延金关汉简",
+      "scope": "秦兵家信与汉少吏借衣，作者名字尚待核",
+      "excerpt": "家书求钱与夏衣，亲属关切",
+      "tool_event_ref": "checker:web.open turn5view5 L48–51/131–136; turn7view1 L72–97",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker",
+      "acquisition_note": "来源实际由原生核查agent访问；事件定位为其真实返回，不宣称主agent独立重访。"
+    },
+    {
+      "id": "E003",
+      "locator": "https://zh.wikisource.org/wiki/漢書/卷024上",
+      "source_type": "传世史书电子转录",
+      "source_date": "东汉编纂，记西汉",
+      "source_family": "汉书",
+      "scope": "法定田租，非总福利",
+      "excerpt": "十五税一、减免、三十税一",
+      "tool_event_ref": "checker:web.open turn6view1 L140–142; turn7view0 L158–161; turn9view0 L212–220; 卷004内部对读; checker:web.open turn36view4 L148–155; turn38view1 L161",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker",
+      "acquisition_note": "来源实际由原生核查agent访问；事件定位为其真实返回，不宣称主agent独立重访。"
+    },
+    {
+      "id": "E004",
+      "locator": "https://www.fdgwz.org.cn/Web/Show/2435",
+      "source_type": "考古法律研究论文",
+      "source_date": "2015-01-25",
+      "source_family": "睡虎地11号墓秦律",
+      "scope": "徭律役种时段非自动适用戍卒",
+      "excerpt": "迟到处罚分档且有雨水规定",
+      "tool_event_ref": "checker:web.open turn4view0/turn5view4 L58–65",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker",
+      "acquisition_note": "来源实际由原生核查agent访问；事件定位为其真实返回，不宣称主agent独立重访。"
+    },
+    {
+      "id": "E005",
+      "locator": "https://zh.wikisource.org/zh-hans/江陰城守紀",
+      "source_type": "传世地方记事电子转录",
+      "source_date": "事件1645；编纂待核",
+      "source_family": "江阴城守记事",
+      "scope": "后出地方记事，韩菼署名与成书有严重疑问；只能支持该文本叙事，非1645同期对白/全国心理。",
+      "excerpt": "归顺后因剃发政策请愿反抗",
+      "tool_event_ref": "checker:web.open turn7view3 L173–191; turn6view3 L144–175",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker",
+      "acquisition_note": "来源实际由原生核查agent访问；事件定位为其真实返回，不宣称主agent独立重访。"
+    },
+    {
+      "id": "E006",
+      "locator": "https://www.ha.cuhk.edu.hk/AoE%20Papers%20and%20Books/Zhao%20Shiyu%20%E8%B5%B5%E4%B8%96%E7%91%9C/%E2%80%9C%E4%B8%8D%E6%B8%85%E4%B8%8D%E6%98%8E%E2%80%9D%E4%B8%8E%E2%80%9C%E6%97%A0%E6%98%8E%E4%B8%8D%E6%B8%85%E2%80%9D%E2%80%94%E2%80%94%E6%98%8E%E6%B8%85%E6%98%93%E4%BB%A3%E7%9A%84%E5%8C%BA%E5%9F%9F%E7%A4%BE%E4%BC%9A%E5%8F%B2%E8%A7%A3%E9%87%8A.pdf",
+      "source_type": "学术研究",
+      "source_date": "2010-07",
+      "source_family": "明清区域史/与江阴记事重叠",
+      "scope": "地方城乡主仆解释，非全国比例",
+      "excerpt": "动机与区域关系异质，不可只归忠君",
+      "tool_event_ref": "checker:web.open turn5view1 P0; turn4view2 P9–10 L818–897",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker",
+      "acquisition_note": "来源实际由原生核查agent访问；事件定位为其真实返回，不宣称主agent独立重访。"
+    },
+    {
+      "id": "E007",
+      "locator": "https://zh.wikisource.org/zh-hans/山坡羊_潼關懷古",
+      "source_type": "元代散曲电子转录",
+      "source_date": "元代；确日未核，oldid2195842",
+      "source_family": "张养浩散曲",
+      "scope": "作者文学评价，非百姓调查",
+      "excerpt": "兴亡百姓苦的文学评价",
+      "tool_event_ref": "checker:web.open turn11view1 L111–115/124",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker",
+      "acquisition_note": "来源实际由原生核查agent访问；事件定位为其真实返回，不宣称主agent独立重访。"
+    },
+    {
+      "id": "E008",
+      "locator": "https://zh.wikisource.org/zh/桃花源記",
+      "source_type": "文学寓言电子转录",
+      "source_date": "东晋",
+      "source_family": "陶渊明文本",
+      "scope": "理想隔绝设定，非群众心理",
+      "excerpt": "不知汉魏晋与免王税理想",
+      "tool_event_ref": "checker:web.open turn11view0 L117–123",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker",
+      "acquisition_note": "来源实际由原生核查agent访问；事件定位为其真实返回，不宣称主agent独立重访。"
+    },
+    {
+      "id": "E009",
+      "locator": "https://zh.wikisource.org/wiki/史記/卷048",
+      "source_type": "传世史书电子转录",
+      "source_date": "西汉记秦末",
+      "source_family": "史记陈涉世家",
+      "scope": "后出叙事，动员不是人口心理统计",
+      "excerpt": "佣耕出身与戍卒借政治符号动员",
+      "tool_event_ref": "checker:web.open turn10view0 L120–124",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker",
+      "acquisition_note": "来源实际由原生核查agent访问；事件定位为其真实返回，不宣称主agent独立重访。"
+    },
+    {
+      "id": "E010",
+      "locator": "https://www.fdgwz.org.cn/Web/Show/10964",
+      "source_type": "原始语词研究",
+      "source_date": "2022-11-03",
+      "source_family": "睡虎地4号墓家书",
+      "scope": "相家爵人名/军爵解释争议；王得为人名；不认证归属",
+      "excerpt": "语词释读和学术分歧",
+      "tool_event_ref": "checker:web.open turn32view0 L52–81; turn32view1 L79–98; turn32view2 L194–204",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker"
+    },
+    {
+      "id": "E011",
+      "locator": "https://wxy.yzu.edu.cn/__local/2/71/9C/35E8FA0D8A519D6A50CD44A10E5_B0040D50_46C03.pdf",
+      "source_type": "学术论文",
+      "source_date": "出版日期未核",
+      "source_family": "睡虎地家书",
+      "scope": "论文采用前223年，推导/年月未全核，不作精确定年依赖",
+      "excerpt": "论文定年线索，部分支持",
+      "tool_event_ref": "checker:web.open turn15view4 P5 L184–191",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker"
+    },
+    {
+      "id": "E012",
+      "locator": "https://www.rdfybk.com/qw/DownPdf?id=835816",
+      "source_type": "原始简牍经济研究",
+      "source_date": "2023年第3期",
+      "source_family": "里耶迁陵/土山屯堂邑",
+      "scope": "具体行政核算；当收≠实收；计算题非缴税收据",
+      "excerpt": "租志核查、仓曹出入券、灾田与当收",
+      "tool_event_ref": "checker:web.open turn14view2/turn17view4 P0 L40–65; turn25view0 P8 L863–876",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker"
+    },
+    {
+      "id": "E013",
+      "locator": "https://xb.szu.edu.cn/article/2017/1000-260X-34-4-144.html",
+      "source_type": "简牍学术研究",
+      "source_date": "2017",
+      "source_family": "里耶行政档案",
+      "scope": "嵌图未读；应纳和征纳结构部分支持，非足额实收",
+      "excerpt": "户赋者及茧额研究",
+      "tool_event_ref": "checker:web.open turn29view2 L84–101",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker"
+    },
+    {
+      "id": "E014",
+      "locator": "https://www.cssn.cn/dkzgxp/zgxp_zgshkx/2022nd2q/202208/t20220822_5474682.shtml",
+      "source_type": "更徭学术研究",
+      "source_date": "2022年第2期",
+      "source_family": "松柏47号南郡卒更簿",
+      "scope": "簿册存在；更次数/预算/人员移动解释争议；作者倾向考核汇总平均/累加数，预算是竞争解释，更次数非个人月数",
+      "excerpt": "更数人数助受数，不直接换算个人月数",
+      "tool_event_ref": "checker:web.open turn31view3 L190–218; turn25view2 L159–164; checker:web.open turn46view1 L207–220",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker"
+    },
+    {
+      "id": "E015",
+      "locator": "https://ming.cnhis.ncnu.edu.tw/wp-content/uploads/2007/10/Pt33.pdf",
+      "source_type": "文本批判原始研究",
+      "source_date": "v1.38 2007-10-23",
+      "source_family": "江阴地方记事文本批判",
+      "scope": "署名年代问题；真实作者disputed；未直接读顾诚；年代线索直接来自序文，不排除后加和更早材料",
+      "excerpt": "序文署1715而韩1704卒，另含据认为不早于1776年的线索；不认证正文各部分成书年代",
+      "tool_event_ref": "checker:web.open turn36view1 P12/印页13 L475–518; turn23view2; checker:web.open turn39view0 P12/印页13 L475–490",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker"
+    },
+    {
+      "id": "E016",
+      "locator": "https://zh.wikisource.org/wiki/大清世祖章皇帝實錄/卷017",
+      "source_type": "中央官方实录电子转录",
+      "source_date": "顺治二年六月丙辰，实录后编",
+      "source_family": "清中央实录",
+      "scope": "中央强制政策；不认证地方对白动机/人数",
+      "excerpt": "向多铎等敕谕军民剃发，不从军法处理",
+      "tool_event_ref": "checker:web.open turn36view0 L113/137",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker"
+    },
+    {
+      "id": "E017",
+      "locator": "https://fdgwz.org.cn/Web/Show/2299",
+      "source_type": "原始敦煌文书语词研究",
+      "source_date": "原刊《文史》2013年第2辑，网页2014-06-30",
+      "source_family": "敦煌归义军请状契约",
+      "scope": "P.2222B(1)865/P.3214v907正文自称百姓、请求裁定与责任安排；S.1897身份仅整理题名部分支持；可能代写，未证受理履行/每人全懂/归属",
+      "excerpt": "865请地、907税役责任、924处罚分担",
+      "tool_event_ref": "checker:web.open turn37view0 L56–72/101–108/119; turn31view1 L192/198; turn29view1 L131–134; checker:web.open turn40view2 L58/72/102; turn46view0 L192; turn47view1 L239/341",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root/checker"
+    },
+    {
+      "id": "E018",
+      "locator": "https://www.cambridge.org/core/books/origins-of-the-chinese-nation/D3B5D6FDAB2060CEF6C173C797E1557C",
+      "source_type": "作者出版社书介",
+      "source_date": "2017",
+      "source_family": "Tackett北宋精英研究",
+      "scope": "仅公开书介论点已读，全书/节选未取得；不能外推百姓",
+      "excerpt": "学者提出前现代nationalism，定义非无争议",
+      "tool_event_ref": "moderator:web.open turn27view0 L438–460/510–513",
+      "accessed_at": "2026-10-06",
+      "acquisition": "observed",
+      "observer_thread_id": "/root"
+    },
+    {
+      "id": "E019",
+      "locator": "https://www.fdgwz.org.cn/Web/Show/4579",
+      "source_type": "原始秦简研究",
+      "source_date": "原刊2020年第1期，网页2020-06-13",
+      "accessed_at": "2026-10-06",
+      "scope": "里耶9-743官署受款交接，不等每户原始实纳；未入残文不可补单位或配对",
+      "source_family": "里耶迁陵行政档案，与E012/013共享",
+      "excerpt": "田刍稾钱1134的官署受款记载；另一组未入项目残文；不拼成年际家庭负担",
+      "acquisition": "observed",
+      "tool_event_ref": "checker:web.open turn43view2 L114–124; turn47view0 L133/137/211–213",
+      "observer_thread_id": "/root/checker"
+    }
+  ],
+  "issues": [
+    {
+      "id": "I001",
+      "claim_ids": [
+        "C001",
+        "C003",
+        "C014",
+        "C021"
+      ],
+      "priority": "decisive",
+      "status": "resolved",
+      "resolution": "广义行政缺席按定义被两件敦煌文书反证；对主体/代写/受理界限已第四批追核",
+      "next_action": "新文本或身份反证才复开"
+    },
+    {
+      "id": "I002",
+      "claim_ids": [
+        "C002",
+        "C008",
+        "C017",
+        "C022"
+      ],
+      "priority": "decisive",
+      "status": "blocked",
+      "resolution": "家庭应纳/实收/生活同范围关联未取得；文书核算和受款不补总体；原强等同不作为成立事实",
+      "next_action": "取得准确图版/同期间关联资料后复开"
+    },
+    {
+      "id": "I003",
+      "claim_ids": [
+        "C007",
+        "C009",
+        "C016",
+        "C018",
+        "C019"
+      ],
+      "priority": "important",
+      "status": "resolved",
+      "resolution": "文学/沉默/代写/家族/年代/爵位误读边界均追核并双方修订，旧原文保留",
+      "next_action": "最终核查抽查遗漏"
+    },
+    {
+      "id": "I004",
+      "claim_ids": [
+        "C020",
+        "C005"
+      ],
+      "priority": "decisive",
+      "status": "blocked",
+      "resolution": "情感普遍缺席及全国动机比例无可靠人口分母/直接代表材料，不将知识代归属",
+      "next_action": "真实私人归属表达/代表覆盖新证据后复开"
+    },
+    {
+      "id": "I005",
+      "claim_ids": [
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C013",
+        "C021"
+      ],
+      "priority": "important",
+      "status": "resolved",
+      "resolution": "强弱读法、慈善修辞、逻辑与伦理已正反重建、互认及反转条件检验",
+      "next_action": "最终支持链压力"
+    }
+  ],
+  "coverage": [
+    {
+      "id": "D1",
+      "dimension": "概念时代差异",
+      "affirmative": "R1/2/9拆分知识归属现代国家；不临时缩定义",
+      "negative": "R1/2/9同样拆分，不将古人当现代国民",
+      "key_facts": [
+        "C003",
+        "C020",
+        "C021"
+      ],
+      "scope": "中国前近代；精英前现代nationalism论点不推群众",
+      "status": "covered",
+      "next_action": "本次正式压力/逆向重建已完成，等待核查员最终独立复核"
+    },
+    {
+      "id": "D2",
+      "dimension": "普通人意识行动",
+      "affirmative": "R4/7/10承认敦煌行政参与反例，生计不排政治",
+      "negative": "R4/7/10不以行政参与证忠诚",
+      "key_facts": [
+        "C007",
+        "C014",
+        "C021",
+        "C020"
+      ],
+      "scope": "秦兵卒、敦煌非精英个案，非人口比例",
+      "status": "covered_with_limits",
+      "next_action": "本次实际追核已完成，缺口保留；取得具体新资料才复开"
+    },
+    {
+      "id": "D3",
+      "dimension": "兴亡战争与政策强制",
+      "affirmative": "R6/9/12替代动机与强制，归顺拒令可并存",
+      "negative": "R6/9/12群体不等于同个人动机",
+      "key_facts": [
+        "C009",
+        "C015"
+      ],
+      "scope": "江阴后出记事与中央政策分开",
+      "status": "covered_with_limits",
+      "next_action": "本次正式压力/逆向重建已完成，等待核查员最终独立复核"
+    },
+    {
+      "id": "D4",
+      "dimension": "制度政策与实际福利",
+      "affirmative": "R3/5/11机制持续不证总量同",
+      "negative": "R3/5/11法定变化不等家庭结果",
+      "key_facts": [
+        "C008",
+        "C017",
+        "C002"
+      ],
+      "scope": "法定、实收、家庭负担、福利四层",
+      "status": "covered_with_limits",
+      "next_action": "本次实际追核已完成，缺口保留；取得具体新资料才复开"
+    },
+    {
+      "id": "D5",
+      "dimension": "阶层地区性别身份异质性",
+      "affirmative": "R3/7提出拆分与固定时窗",
+      "negative": "R3/7分母权重/迁移幸存者偏差",
+      "key_facts": [
+        "C002",
+        "C020"
+      ],
+      "scope": "不宣称所有时期群体已有代表性样本",
+      "status": "covered_with_limits",
+      "next_action": "本次实际追核已完成，缺口保留；取得具体新资料才复开"
+    },
+    {
+      "id": "D6",
+      "dimension": "史料代表性统计",
+      "affirmative": "R4/7/10家书/文学/史记家族不同",
+      "negative": "R4/7/10代写与保存偏差",
+      "key_facts": [
+        "C016",
+        "C018",
+        "C019"
+      ],
+      "scope": "原始源未全取得；禁止户籍等死亡",
+      "status": "covered",
+      "next_action": "本次正式压力/逆向重建已完成，等待核查员最终独立复核"
+    },
+    {
+      "id": "D7",
+      "dimension": "逻辑强弱版本",
+      "affirmative": "R1–11原句与修改不混，承认广义H1反例",
+      "negative": "R1–11未证非证伪，对应指标",
+      "key_facts": [
+        "C003",
+        "C004",
+        "C005",
+        "C021"
+      ],
+      "scope": "共同体情感/行政知识/多数动机分别",
+      "status": "covered",
+      "next_action": "本次正式压力/逆向重建已完成，等待核查员最终独立复核"
+    },
+    {
+      "id": "D8",
+      "dimension": "伦理现实应用",
+      "affirmative": "R8防卫必要性公平及拒绝牺牲反例",
+      "negative": "R8不把认同作为道德考核",
+      "key_facts": [
+        "C013",
+        "C006"
+      ],
+      "scope": "评价建议价值选择，非古人共识/当代政策",
+      "status": "covered",
+      "next_action": "本次正式压力/逆向重建已完成，等待核查员最终独立复核"
+    }
+  ],
+  "checker_report_path": "checks/final_check.md",
+  "checker_addendum_path": "checks/final_check_addendum.md",
+  "key_speech_rounds": [
+    1,
+    5,
+    10,
+    12,
+    13,
+    14,
+    15,
+    19
+  ],
+  "speech_roles": [
+    "affirmative",
+    "negative"
+  ],
+  "all_formal_transcript_path": "full_transcript.md",
+  "input_isolation": "fork_turns=none; procedural only, not strict blinding/statistical independence",
+  "freeze_sequence": "after final_check_addendum / before judge substantive dispatch"
+}

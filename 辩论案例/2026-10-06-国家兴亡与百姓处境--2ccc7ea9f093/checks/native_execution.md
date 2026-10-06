@@ -1,0 +1,10 @@
+# 原生执行及隔离记录
+run_id：20261006T012729Z--2ccc7ea9f093。
+四个角色均由本主会话真实调用collaboration.spawn_agent创建，工具返回的可见标识分别是/root/affirmative、/root/negative、/root/checker、/root/judge。工具只返回canonical task_name；不存在已观察到的隐藏UUID，不编造。
+spawn任务均fork_turns=none。支持/反对R1在接收任何一方结果之前各自分派同一任务卡与来源范围。后续每轮同证据版本、同上一轮冻结快照，两个角色均返回后才保存本轮正式状态；未使用串行质询优势。
+续接使用collaboration.followup_task，沿原canonical角色线程。等待使用collaboration.wait_agent；未用shell另启动Codex角色。核查员批次使用原checker线程；评委在核查前仅预检并回报准备就绪，实质裁决仅最终冻结之后分派。
+子agent任务一贯只读返回，当前可观察交付未自写账本。主agent通过apply_patch/exec写当前run_dir，为唯一账本写入者。系统级子agent读写权限未知，文字只读不是OS保证。只读共享系统文件、当前运行快照和本次公开来源；没有扫描其他debates或复用其他主题证据。
+可观察客户端Codex desktop、主模型家族GPT-6；精确主/子模型、token、金额、隐含模型调用和平台上下文占用未知=null。相同模型可能共享偏差，角色不算独立统计样本，观点一致不作为证据。
+证据事件采用实际观察者返回的web引用和行/页定位，定位不构成密码学证明；主agent未将所有网页再独立重复访问。失败访问与未读图版明确保留。评委程序性输入隔离不宣称严格盲评。
+阶段初始计划30/最多60；实际调整只在run.json.plan_revisions登记，不改manifest和过去回合。若按收敛提前结束，其闸门须由实质正文与核查支撑；validate仅结构一致，不能认证史实、执行真实性或质量。
+

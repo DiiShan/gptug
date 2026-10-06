@@ -1,0 +1,13 @@
+# 这是本辩论程序的配置，不是 Codex config.toml 的字段。
+# 日常仅修改 PROMPT.md 中的主题；这些参数在首次部署时确定。
+system_version = "3.1"
+purpose = "decision"
+planned_rounds = 30
+max_rounds = 60
+extension_rounds = 10
+phase_weights = [10, 20, 30, 30, 10]
+convergence_start_ratio = 0.4
+stable_window = 4
+checkpoint_interval = 5
+search_policy = "public_only"
+output_language = "zh-CN"

@@ -1,0 +1,125 @@
+{
+  "schema_version": "draft-1",
+  "status": "blank_template_not_a_result",
+  "notice": "null表示未知/未测，不表示零、通过或不存在；每项实测必须关联独立证据。",
+  "identifiers": {
+    "run_id": null,
+    "task_id": null,
+    "problem_family_id": null,
+    "attempt_id": null,
+    "request_id": null,
+    "parent_task_id": null,
+    "dataset_split": null
+  },
+  "configuration": {
+    "service_alias": null,
+    "deployment_revision": null,
+    "client_name": null,
+    "client_revision": null,
+    "gateway_revision": null,
+    "config_hash": null,
+    "prompt_hash": null,
+    "input_artifact_hash": null,
+    "tokenizer_revision": null,
+    "toolchain_revision": null,
+    "oracle_revision": null,
+    "reasoning_mode": null
+  },
+  "load": {
+    "workload_id": null,
+    "configured_concurrency": null,
+    "observed_inflight_at_send": null,
+    "offered_request_rate": null,
+    "actual_send_rate": null,
+    "client_queue_depth": null,
+    "cache_state": "unknown",
+    "cache_evidence_reference": null,
+    "time_block": null
+  },
+  "timing": {
+    "clock_basis": null,
+    "scheduled_at": null,
+    "sent_at": null,
+    "first_content_at": null,
+    "first_answer_at": null,
+    "first_valid_tool_call_at": null,
+    "response_done_at": null,
+    "task_accepted_at": null,
+    "server_queue_ms": null,
+    "server_prefill_ms": null,
+    "server_decode_ms": null,
+    "server_trace_reference": null
+  },
+  "tokens": {
+    "source": null,
+    "input_tokens": null,
+    "visible_output_tokens": null,
+    "reasoning_tokens": null,
+    "usage_completion_tokens": null,
+    "completion_includes_reasoning": null,
+    "cache_read_tokens": null,
+    "counting_notes": null
+  },
+  "request_result": {
+    "http_status": null,
+    "finish_reason": null,
+    "error_category": null,
+    "timed_out": null,
+    "cancelled": null,
+    "latency_censored": null,
+    "retry_count": null,
+    "expected_fault_injection": null
+  },
+  "tool_result": {
+    "event_log_reference": null,
+    "tool_calls": null,
+    "invalid_calls": null,
+    "duplicate_side_effects": null,
+    "failures_acknowledged": null
+  },
+  "acceptance": {
+    "first_candidate_passed": null,
+    "passed_within_budget": null,
+    "independent_check_reference": null,
+    "human_verdict": null,
+    "all_required_checks_passed": null,
+    "budget_exceeded": null
+  },
+  "factuality": {
+    "adjudicated_true_claims": null,
+    "adjudicated_false_claims": null,
+    "undetermined_claims": null,
+    "evidence_required_claims": null,
+    "unsupported_claims": null,
+    "citations_checked": null,
+    "citations_supporting_claims": null,
+    "answerability_label": null,
+    "appropriate_abstention": null,
+    "over_abstention": null,
+    "fabricated_execution_events": null,
+    "highest_severity": null,
+    "review_reference": null
+  },
+  "productivity": {
+    "comparison_arm": null,
+    "prep_minutes": null,
+    "interaction_minutes": null,
+    "supervision_minutes": null,
+    "review_minutes": null,
+    "repair_minutes": null,
+    "failure_takeover_minutes": null,
+    "downstream_rework_minutes": null,
+    "allocated_maintenance_minutes": null,
+    "wallclock_seconds": null,
+    "inference_cost": null,
+    "eda_license_cost": null,
+    "currency": null,
+    "one_time_construction_cost": null
+  },
+  "scope": {
+    "input_is_approved": null,
+    "raw_artifact_internal_reference": null,
+    "public_release_approved": false,
+    "notes": null
+  }
+}

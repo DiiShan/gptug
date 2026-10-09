@@ -1,0 +1,153 @@
+{
+  "schema_version": "draft-1",
+  "plan_version": "1.0",
+  "as_of": "2026-10-09",
+  "status": "unapproved_not_executed",
+  "notice": "数据契约草案，不是AIPerf/vLLM可直接执行的配置。内部填写后的版本不得回传公开仓库。",
+  "approval": {
+    "platform_owner": null,
+    "data_owner": null,
+    "security_owner": null,
+    "test_window": null,
+    "stop_conditions": []
+  },
+  "services": [
+    {
+      "alias": "qwen3.8-27B",
+      "api_model_id": null,
+      "upstream_model": null,
+      "deployment_revision": null,
+      "tokenizer_revision": null,
+      "quantization": null,
+      "inference_engine_revision": null,
+      "endpoint_reference": null,
+      "credential_reference": null,
+      "protocol": null,
+      "context_limit_tokens": null,
+      "max_output_tokens": null,
+      "reasoning_budget_semantics": null,
+      "supported_reasoning_modes": [],
+      "selected_reasoning_mode": null,
+      "sampling_config": {},
+      "gateway_revision": null,
+      "limits": {
+        "reported_per_key_concurrency": 10,
+        "verified": false,
+        "scope": null,
+        "shared_across_models": null,
+        "rpm": null,
+        "tpm": null,
+        "cancel_releases_slot": null
+      },
+      "logging_and_egress_approved": false
+    },
+    {
+      "alias": "dsv4",
+      "api_model_id": null,
+      "upstream_model": null,
+      "deployment_revision": null,
+      "tokenizer_revision": null,
+      "quantization": null,
+      "inference_engine_revision": null,
+      "endpoint_reference": null,
+      "credential_reference": null,
+      "protocol": null,
+      "context_limit_tokens": null,
+      "max_output_tokens": null,
+      "reasoning_budget_semantics": null,
+      "supported_reasoning_modes": [],
+      "selected_reasoning_mode": null,
+      "sampling_config": {},
+      "gateway_revision": null,
+      "limits": {
+        "reported_per_key_concurrency": 10,
+        "verified": false,
+        "scope": null,
+        "shared_across_models": null,
+        "rpm": null,
+        "tpm": null,
+        "cancel_releases_slot": null
+      },
+      "logging_and_egress_approved": false
+    }
+  ],
+  "global_request_guard": {
+    "max_inflight_per_key": 10,
+    "authorization_verified": false,
+    "aggregate_both_services_until_scope_verified": true,
+    "queue_capacity": null,
+    "queue_overflow_policy": "record_client_rejection",
+    "no_key_rotation_to_bypass_limits": true,
+    "eda_concurrency": null
+  },
+  "workloads": [
+    {"id": "P0", "input_target_tokens": 2048, "visible_output_target_tokens": 256, "optional": false},
+    {"id": "P1", "input_target_tokens": 8192, "visible_output_target_tokens": 1024, "optional": false},
+    {"id": "P2", "input_target_tokens": 32768, "visible_output_target_tokens": 1024, "optional": false},
+    {"id": "P3", "input_target_tokens": [65536, 131072], "visible_output_target_tokens": 2048, "optional": true}
+  ],
+  "performance": {
+    "concurrency_points": [1, 2, 4, 6, 8, 10],
+    "screening": {
+      "model_count": 2,
+      "workload_ids": ["P0", "P1", "P2"],
+      "requests_per_cell": 20,
+      "reasoning_modes_count": 1,
+      "planned_requests_excluding_warmup": 720,
+      "purpose": "粗筛，不能作SLA或稳定p95结论"
+    },
+    "confirmation": {
+      "select_only_candidate_and_adjacent_points": true,
+      "suggested_min_observations_per_key_configuration": 300,
+      "suggested_time_blocks": 3,
+      "sample_size_is_not_precision_guarantee": true
+    },
+    "arrival_rate_fractions": [0.25, 0.5, 0.75, 0.9, 1.0],
+    "mixed_model_inflight_pairs": [[10, 0], [0, 10], [5, 5], [8, 2], [2, 8]],
+    "timeout_seconds": null,
+    "retry_budget": null,
+    "warmup_policy": null,
+    "cache_evidence_required": true,
+    "include_scheduled_to_sent_queue": true,
+    "include_all_failures_in_denominators": true
+  },
+  "context": {
+    "candidate_lengths_tokens": [4096, 8192, 16384, 32768, 65536, 131072],
+    "only_supported_and_approved_lengths": true,
+    "evidence_positions": ["front", "middle", "end"],
+    "conversation_turn_points": [5, 10, 20],
+    "test_compaction": true,
+    "separate_accept_quality_workflow_limits": true,
+    "task_quality_thresholds": {}
+  },
+  "evaluation": {
+    "domain_scopes": ["微架构", "RTL设计", "协助验证", "协助综合", "协助后端", "硅后支持"],
+    "initial_domain_families": 30,
+    "full_domain_families_target": 60,
+    "independent_runs_per_task": 3,
+    "hallucination_items_target": 120,
+    "hallucination_groups": ["充分证据", "信息缺失", "冲突或旧版本", "错误前提", "数值单位陷阱", "未运行或失败工具"],
+    "dataset_revision": null,
+    "holdout_split_reference": null,
+    "oracle_revision": null,
+    "human_help_budget": null,
+    "tool_call_budget": null,
+    "task_wallclock_budget_seconds": null,
+    "protected_oracle_and_tests": true,
+    "risk_enriched_samples_not_production_rate": true,
+    "cluster_statistics_by_problem_family": true
+  },
+  "slo_status": "discussion_only_not_approved",
+  "proposed_user_latency_slo_seconds": {
+    "P0": {"p95_first_answer_including_client_queue": 5, "p95_full_response_including_client_queue": 30},
+    "P1": {"p95_first_answer_including_client_queue": 15, "p95_full_response_including_client_queue": 120},
+    "P2": {"p95_first_answer_including_client_queue": 30, "p95_full_response_including_client_queue": 180}
+  },
+  "productivity": {
+    "arms": ["A_current_tools", "B_improved_deterministic_tools", "C_B_plus_runtime_model"],
+    "task_assignments_exploratory_target": [24, 36],
+    "record_all_failure_and_review_time": true,
+    "construction_cost_separate": true
+  },
+  "results": null
+}

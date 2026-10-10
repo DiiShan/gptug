@@ -160,7 +160,9 @@
     "metric_scope_ref": "__SET__",
     "rules_version": "__SET__",
     "comparability_status": "insufficient_evidence",
-    "reason_codes": ["TEMPLATE_NOT_POPULATED"],
+    "reason_codes": [
+      "TEMPLATE_NOT_POPULATED"
+    ],
     "review_ref": null
   },
   "operational_policy": {
@@ -175,5 +177,23 @@
     "llm_request_concurrency_limit": null,
     "eda_resource_budget_ref": "__SET__",
     "review_capacity_policy_ref": "__SET__"
+  },
+  "documentation_revision": "v2.0-2026-10-10",
+  "collaboration": {
+    "operating_mode": "analysis_of_external_synthesis_handoff",
+    "code_delivery_owner": "设计/分析侧（你）",
+    "eda_execution_owner": "综合团队负责",
+    "native_export_owner": "综合团队负责",
+    "scheduler_library_sdc_setup_owner": "综合团队负责",
+    "rerun_and_additional_eda_query_owner": "综合团队负责",
+    "report_analysis_owner": "设计/分析侧（你）",
+    "cross_tile_signoff_owner": "综合团队负责协调；各专业按原职责签核",
+    "analysis_agent_may_execute_eda": false,
+    "source_delivery_ref": null,
+    "received_package_ref": null,
+    "provider_conditions_confirmation_ref": null,
+    "conditions_evidence_level": "unknown",
+    "handoff_approval_status": "unapproved",
+    "note": "分析侧接收报告/状态/有效条件及不可变引用；不需复制全部PDK或访问调度器。缺失条件限制相应结论，不取消检查。"
   }
 }

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "pending_binary_upload",
+  "note": "8个待上传二进制：原Excel、修订Excel、6张原PNG；Mermaid源码另随文档提交。",
+  "files": [
+    {
+      "repo_path": "ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/01-plan-implementation.png",
+      "bytes": 266912,
+      "sha256": "ad1ba05029e156dbceb26f776cd2b75d12544eb1e6d29077d421302bbdad6ae9",
+      "git_blob_sha": "d67e11af6a9400a02baa614352b70b7582436bce",
+      "status": "pending_binary_upload",
+      "local_file": "payload/ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/01-plan-implementation.png"
+    },
+    {
+      "repo_path": "ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/02-per-round-workflow.png",
+      "bytes": 306200,
+      "sha256": "d48950e6483c45f8efaf92e4f5fb5bff5c070b2e3c09c8de04b637f21e1be03b",
+      "git_blob_sha": "b55de52316a0539779ac6ea769da695615929a88",
+      "status": "pending_binary_upload",
+      "local_file": "payload/ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/02-per-round-workflow.png"
+    },
+    {
+      "repo_path": "ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/03-ai-quality-gates.png",
+      "bytes": 222905,
+      "sha256": "ca13868ad46b933417165dafd162ccdc35b2a78db746fbd31ec5fca31fb68568",
+      "git_blob_sha": "e11bd3c1ca22c6c2b8f55be53f547884a3823489",
+      "status": "pending_binary_upload",
+      "local_file": "payload/ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/03-ai-quality-gates.png"
+    },
+    {
+      "repo_path": "ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/04-历史汇总示意图.png",
+      "bytes": 2023172,
+      "sha256": "6fb829044a384cfc54aa6bacf1f60256ad815bffd28296839a0ab53ef7058dab",
+      "git_blob_sha": "53034ea3e9ef62bf9e7cc19958deb117cf957b28",
+      "status": "pending_binary_upload",
+      "local_file": "payload/ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/04-历史汇总示意图.png"
+    },
+    {
+      "repo_path": "ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/05-历史Excel索引预览.png",
+      "bytes": 339711,
+      "sha256": "2ebd5770058be6581135379cf1281cd309e7bc983ba5027843d5be2bbc6e6bb4",
+      "git_blob_sha": "647b7241a03d4004b22124070a1ba894203b16dd",
+      "status": "pending_binary_upload",
+      "local_file": "payload/ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/05-历史Excel索引预览.png"
+    },
+    {
+      "repo_path": "ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/06-历史Excel字段预览.png",
+      "bytes": 141668,
+      "sha256": "d051962d46af876b5dbb667eed8765c15f0ef95d0a701d62a42b2ea570e03d8b",
+      "git_blob_sha": "a293f797640e219a926be6f5d433f9e7176196e0",
+      "status": "pending_binary_upload",
+      "local_file": "payload/ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/06-历史Excel字段预览.png"
+    },
+    {
+      "repo_path": "ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/SoC综合时序分析_流程与实施明细表-v1.xlsx",
+      "bytes": 60588,
+      "sha256": "0d62f1c4fcd94a4fb15075ab31103e3ed2830120deb6e672911bcae0470407c7",
+      "git_blob_sha": "ad929d6e5a4d75ba6efb2b33b133edf825ee5e62",
+      "status": "pending_binary_upload",
+      "local_file": "payload/ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/历史/SoC综合时序分析_流程与实施明细表-v1.xlsx"
+    },
+    {
+      "repo_path": "ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/SoC综合时序分析_流程与实施明细表-v2.xlsx",
+      "bytes": 62348,
+      "sha256": "63fb1e40097cc7bc16e2854a3bc35a9aac95228e23d8c08a754ed568a0bb6abf",
+      "git_blob_sha": "a1a95edfac35185ac9772fbf66f1837f317bc41f",
+      "status": "pending_binary_upload",
+      "local_file": "payload/ai提效/芯片研发/专题/SoC多Tile综合时序分析/附件/SoC综合时序分析_流程与实施明细表-v2.xlsx"
+    }
+  ]
+}
